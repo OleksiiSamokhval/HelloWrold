@@ -14,6 +14,7 @@ namespace HelloWrold
             string temp;
             Console.WriteLine("Hello World");
             Console.WriteLine("Do you want somethig to add?");
+            Console.WriteLine("make input and press ENTER");
             temp = Console.ReadLine();
             Console.WriteLine("your input was " + temp);
         }
