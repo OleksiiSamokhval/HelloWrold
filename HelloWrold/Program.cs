@@ -17,6 +17,7 @@ namespace HelloWrold
             Console.WriteLine("make input and press ENTER");
             temp = Console.ReadLine();
             Console.WriteLine("your input was " + temp);
+            Console.WriteLine("and now we will make another change");
         }
     }
 }
