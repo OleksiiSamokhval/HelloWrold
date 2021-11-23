@@ -8,9 +8,14 @@ namespace HelloWrold
 {
     class Program
     {
+        
         static void Main(string[] args)
         {
+            string temp;
             Console.WriteLine("Hello World");
+            Console.WriteLine("Do you want somethig to add?");
+            temp = Console.ReadLine();
+            Console.WriteLine("your input was " + temp);
         }
     }
 }
